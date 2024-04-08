@@ -1,23 +1,102 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  text-decoration: none;
-  color: black;
+/* CSS RESET */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+    color:var(--color-secondary);
 }
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  background: white;
-  font-family: "Times New Roman", Times, serif;
+	line-height: 1;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-header {
-  border-bottom: solid;
+:root{
+    --color-primary: rgb(255, 255, 255);
+    --color-secondary: #3f3d54;
+    --color-accent: #8b3dff;
 }
-button {
-  color: white;
-  background-color: #9d5bff;
-  border-radius: 8px;
-  border-color: #9d5bff;
+nav {
+    height: 70px;
+    width: 100%;
+	border-bottom: 1px solid var(--color-primary);
+}
+
+.school-name {
+    color: var(--color-secondary);
+    font-size: 35px;
+    line-height: 70px;
+    display: inline-block;
+	margin-left: 35px;
+}
+.logo{
+	font-size: 35px;
+	margin-left: 50px;
+}
+.logo:hover{
+	color: var(--color-accent);
+	transition: ease-in-out 0.5s;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.btn-nav{
+	border-radius: 13px;
+	background-color: var(--color-accent);
+	height: 20px;
+	padding: 17px 20px;
+    color:white;
+	text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+	margin: 0 25px;
+}
+nav ul li:last-child{
+	margin-right: 100px ;
+	line-height: 0;
+}
+
+
+
+nav ul li a {
+    color: var(--color-secondary);
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: var(--color-accent);
+    transition: ease-in-out .5s;
 }
 aside {
   border-right: solid;
