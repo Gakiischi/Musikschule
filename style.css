@@ -1,102 +1,111 @@
 /* CSS RESET */
-*{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-    text-decoration: none;
-    color:var(--color-secondary);
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: var(--color-secondary);
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  line-height: 1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-:root{
-    --color-primary: rgb(255, 255, 255);
-    --color-secondary: #3f3d54;
-    --color-accent: #8b3dff;
+:root {
+  --color-primary: rgb(255, 255, 255);
+  --color-secondary: #3f3d54;
+  --color-accent: #8b3dff;
 }
 nav {
-    height: 70px;
-    width: 100%;
-	border-bottom: 1px solid var(--color-primary);
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid var(--color-primary);
 }
 
 .school-name {
-    color: var(--color-secondary);
-    font-size: 35px;
-    line-height: 70px;
-    display: inline-block;
-	margin-left: 35px;
+  color: var(--color-secondary);
+  font-size: 35px;
+  line-height: 70px;
+  display: inline-block;
+  margin-left: 35px;
 }
-.logo{
-	font-size: 35px;
-	margin-left: 50px;
+.logo {
+  font-size: 35px;
+  margin-left: 50px;
 }
-.logo:hover{
-	color: var(--color-accent);
-	transition: ease-in-out 0.5s;
-
+.logo:hover {
+  color: var(--color-accent);
+  transition: ease-in-out 0.5s;
 }
 
 nav ul {
-    float: right;
-    margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
-.btn-nav{
-	border-radius: 13px;
-	background-color: var(--color-accent);
-	height: 20px;
-	padding: 17px 20px;
-    color:white;
-	text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
+.btn-nav {
+  border-radius: 13px;
+  background-color: var(--color-accent);
+  height: 20px;
+  padding: 17px 20px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 70px;
-	margin: 0 25px;
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 25px;
 }
-nav ul li:last-child{
-	margin-right: 100px ;
-	line-height: 0;
+nav ul li:last-child {
+  margin-right: 100px;
+  line-height: 0;
 }
-
-
 
 nav ul li a {
-    color: var(--color-secondary);
-    font-size: 17px;
+  color: var(--color-secondary);
+  font-size: 17px;
 }
 
 nav ul li a:hover {
-    color: var(--color-accent);
-    transition: ease-in-out .5s;
+  color: var(--color-accent);
+  transition: ease-in-out 0.5s;
 }
 aside {
   border-right: solid;
@@ -116,5 +125,9 @@ footer {
   background-color: #3f3d56;
   border-top: solid;
   border-color: #3f3d56;
-  color: rgb(206, 206, 206);
+  color: rgb(246, 242, 242);
+}
+
+header {
+  border-bottom: solid var(--color-secondary);
 }
