@@ -109,8 +109,8 @@ aside {
 }
 main {
   position: absolute;
-  left: auto;
-  top: auto;
+  left: 60%;
+  top: 5%;
 }
 footer {
   background-color: #3f3d56;
