@@ -129,6 +129,10 @@ main {
   left: 40%;
   top: 5%;
 }
+.image-text-container img {
+  width: 50%;
+}
+
 footer {
   background-color: var(--color-secondary);
   border-top: solid;
@@ -150,20 +154,20 @@ footer {
   font-size: 20px;
 }
 
-.preis{
+.preis {
   position: absolute;
   left: 30%;
   bottom: -46%;
   font-size: 15px;
 }
 
-.bilderimfoot{
+.bilderimfoot {
   position: absolute;
   left: 10%;
   top: 80%;
 }
 
-.socialmedia{
+.socialmedia {
   position: absolute;
   left: 70%;
   top: 84%;
