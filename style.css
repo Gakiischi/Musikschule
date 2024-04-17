@@ -121,10 +121,14 @@ aside {
   background-color: var(--color-primary);
   color: var(--color-secondary);
 }
+.start {
+  text-align: center;
+}
 
 #main {
   position: relative;
 }
+
 main {
   position: absolute;
   left: 40%;
@@ -135,8 +139,7 @@ main {
   left: 30%;
   bottom: 20%;
 }
-.start {
-}
+
 .contact {
   text-align: center;
 }
