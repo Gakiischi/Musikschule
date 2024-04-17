@@ -168,3 +168,30 @@ footer {
   left: 70%;
   top: 84%;
 }
+
+h1{
+  font-size: 20px;
+  left: 50%;
+  position: absolute;
+}
+
+input{
+  border-radius: 1px;
+  border: black solid 1px;
+  background: #f5f5f5;
+}
+
+textarea{
+  border-radius: 1px;
+  border: black solid 1px;
+  background: #f5f5f5;
+  position: absolute;
+  left: 10%;
+  top: 120%;
+}
+
+.submit{
+  position: absolute;
+  top: 250%;
+  left: 10%;
+}
