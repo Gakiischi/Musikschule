@@ -139,23 +139,7 @@ footer {
 .footer-nav li {
   position: relative;
   text-align: center;
-  right: 5%;
   padding: 25px;
-  color: gray;
-}
-.footer-Kinder-nav {
-  position: absolute;
-  text-align: left;
-  right: 35%;
-  top: 81%;
-  color: gray;
-
-}
-.footer-Erwachsene-nav {
-  position: absolute;
-  text-align: left;
-  right: 20%;
-  top: 81%;
   color: gray;
 }
 
@@ -177,4 +161,10 @@ footer {
   position: absolute;
   left: 10%;
   top: 80%;
+}
+
+.socialmedia{
+  position: absolute;
+  left: 70%;
+  top: 84%;
 }
