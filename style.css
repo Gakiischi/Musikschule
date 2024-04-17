@@ -140,21 +140,21 @@ footer {
   position: relative;
   text-align: center;
   right: 5%;
-  padding: 10px;
+  padding: 25px;
   color: gray;
 }
 .footer-Kinder-nav {
   position: absolute;
   text-align: left;
-  right: 25%;
-  top: 85%;
+  right: 35%;
+  top: 81%;
   color: gray;
 }
 .footer-Erwachsene-nav {
   position: absolute;
   text-align: left;
-  right: 5%;
-  top: 85%;
+  right: 20%;
+  top: 81%;
   color: gray;
 }
 
@@ -170,4 +170,10 @@ footer {
   left: 30%;
   bottom: -46%;
   font-size: 15px;
+}
+
+.bilderimfoot{
+  position: absolute;
+  left: 10%;
+  top: 80%;
 }
