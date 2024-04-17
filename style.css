@@ -209,3 +209,10 @@ textarea {
 .main-content img:hover {
   transform: scale(1.1);
 }
+.btn-nav {
+  transition: transform 0.3s ease;
+}
+
+.btn-nav:hover {
+  transform: scale(1.1);
+}
