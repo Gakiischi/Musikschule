@@ -129,9 +129,6 @@ main {
   left: 30%;
   bottom: 1%;
 }
-main :hover {
-  border: white solid 0.5px;
-}
 
 footer {
   background-color: var(--color-secondary);
@@ -199,3 +196,12 @@ textarea {
   top: 250%;
   left: 10%;
 }
+
+.main-content img {
+  transition: transform 0.3s ease;
+}
+  
+  .main-content img:hover {
+    transform: scale(1.1);
+  }
+  
