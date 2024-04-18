@@ -191,7 +191,7 @@ input {
   border-radius: 1px;
   border: black solid 1px;
   background: #f5f5f5;
-  box-shadow: 3px 1px 1px black;
+  box-shadow: 1px 1px 1px black;
 }
 
 textarea {
@@ -200,15 +200,15 @@ textarea {
   background: #f5f5f5;
   position: absolute;
   left: 10%;
-  top: 120%;
-  box-shadow: 3px 1px 1px black;
+  top: 240%;
+  box-shadow: 1px 1px 1px black;
 }
 
 .submit {
   position: absolute;
-  top: 250%;
+  top: 370%;
   left: 10%;
-  box-shadow: 3px 1px 1px black;
+  box-shadow: 1px 1px 1px black;
 }
 
 .main-content img {
@@ -224,4 +224,56 @@ textarea {
 
 .btn-nav:hover {
   transform: scale(1.1);
+}
+
+.zeile1{
+  position: relative;
+}
+
+.zeile2{
+  position: absolute;
+  top: 35%;
+  left: 200%;
+}
+
+.zeile3{
+  position: absolute;
+  top: 80%;
+  left: 0%;
+}
+
+.zeile4{
+  position: absolute;
+  top: 80%;
+  left: 200%;
+}
+
+.zeile5{
+  position: absolute;
+  top: 120%;
+  left: 0%;
+}
+
+.zeile6{
+  position: absolute;
+  top: 120%;
+  left: 200%;
+}
+
+.zeile7{
+  position: absolute;
+  top: 160%;
+  left: 0%;
+}
+
+.zeile8{
+  position: absolute;
+  top: 160%;
+  left: 200%;
+}
+
+#kontakth1{
+  position: absolute;
+  top: -5%;
+  left: 0%;
 }
