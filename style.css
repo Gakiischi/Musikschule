@@ -128,7 +128,11 @@ aside {
 #main {
   position: relative;
 }
-
+.kurse {
+  position: absolute;
+  left: 40%;
+  top: 5%;
+}
 .kurs-auswahl {
   position: absolute;
   left: 40%;
@@ -248,11 +252,11 @@ input:focus {
   outline: 1px solid #8b3dff;
 }
 
-.main-content img {
+.kurs-auswahl img {
   transition: transform 0.3s ease;
 }
 
-.main-content img:hover {
+.kurs-auswahl img:hover {
   transform: scale(1.1);
 }
 .btn-nav {
