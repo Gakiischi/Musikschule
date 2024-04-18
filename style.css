@@ -195,27 +195,48 @@ h1 {
 }
 
 input {
-  border-radius: 1px;
-  border: black solid 1px;
-  background: #f5f5f5;
-  box-shadow: 1px 1px 1px black;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
 }
 
 textarea {
   border-radius: 1px;
-  border: black solid 1px;
   background: #f5f5f5;
   position: absolute;
   left: 10%;
-  top: 240%;
-  box-shadow: 1px 1px 1px black;
+  top: 210%;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--color-secondary);
+  border-radius: 4px;
 }
+
 
 .submit {
   position: absolute;
-  top: 370%;
+  top: 350%;
   left: 10%;
   box-shadow: 1px 1px 1px black;
+  border-radius: 5%;
+  transition: transform 0.3s ease;
+}
+
+.submit:hover {
+  color: #8b3dff;
+  transform: scale(1.1);
+
+}
+
+input:focus{
+  outline: 1px solid #8b3dff;
 }
 
 .main-content img {
