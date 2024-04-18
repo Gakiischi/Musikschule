@@ -194,12 +194,14 @@ footer {
 }
 
 .bilderimfoot {
+  width: 80px;
   position: absolute;
   left: 25%;
-  top: 85%;
+  top: 82%;
 }
 
 .socialmedia {
+  width: 70px;
   position: absolute;
   left: 70%;
   top: 85%;
