@@ -140,6 +140,10 @@ main {
   bottom: 20%;
 }
 
+#vogel {
+  position: absolute;
+  right: 25%;
+}
 .contact {
   text-align: center;
 }
@@ -219,7 +223,6 @@ textarea {
   border-radius: 4px;
 }
 
-
 .submit {
   position: absolute;
   top: 350%;
@@ -232,10 +235,9 @@ textarea {
 .submit:hover {
   color: #8b3dff;
   transform: scale(1.1);
-
 }
 
-input:focus{
+input:focus {
   outline: 1px solid #8b3dff;
 }
 
@@ -254,53 +256,53 @@ input:focus{
   transform: scale(1.1);
 }
 
-.zeile1{
+.zeile1 {
   position: relative;
 }
 
-.zeile2{
+.zeile2 {
   position: absolute;
   top: 35%;
   left: 200%;
 }
 
-.zeile3{
+.zeile3 {
   position: absolute;
   top: 80%;
   left: 0%;
 }
 
-.zeile4{
+.zeile4 {
   position: absolute;
   top: 80%;
   left: 200%;
 }
 
-.zeile5{
+.zeile5 {
   position: absolute;
   top: 120%;
   left: 0%;
 }
 
-.zeile6{
+.zeile6 {
   position: absolute;
   top: 120%;
   left: 200%;
 }
 
-.zeile7{
+.zeile7 {
   position: absolute;
   top: 160%;
   left: 0%;
 }
 
-.zeile8{
+.zeile8 {
   position: absolute;
   top: 160%;
   left: 200%;
 }
 
-#kontakth1{
+#kontakth1 {
   position: absolute;
   top: -5%;
   left: 0%;
