@@ -266,9 +266,15 @@ input:focus {
 .btn-nav:hover {
   transform: scale(1.1);
 }
+#kontakth1 {
+  position: relative;
+  top: -5%;
+  left: 200%;
+}
 
 .zeile1 {
-  position: relative;
+  position: absolute;
+  top: 40%;
 }
 
 .zeile2 {
@@ -279,8 +285,7 @@ input:focus {
 
 .zeile3 {
   position: absolute;
-  top: 80%;
-  left: 0%;
+  top: 85%;
 }
 
 .zeile4 {
@@ -291,30 +296,23 @@ input:focus {
 
 .zeile5 {
   position: absolute;
-  top: 120%;
+  top: 125px;
   left: 0%;
 }
 
 .zeile6 {
   position: absolute;
-  top: 120%;
-  left: 200%;
+  top: 130px;
+  left: 117px;
 }
 
 .zeile7 {
   position: absolute;
-  top: 160%;
-  left: 0%;
+  top: 180px;
 }
 
 .zeile8 {
   position: absolute;
-  top: 160%;
-  left: 200%;
-}
-
-#kontakth1 {
-  position: absolute;
-  top: -5%;
-  left: 0%;
+  top: 170px;
+  left: 117px;
 }
