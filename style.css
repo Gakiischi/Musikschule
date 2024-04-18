@@ -129,7 +129,7 @@ aside {
   position: relative;
 }
 
-main {
+.kurs-auswahl {
   position: absolute;
   left: 40%;
   top: 5%;
@@ -146,6 +146,9 @@ main {
 }
 .contact {
   text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 5%;
 }
 
 .left-content {
