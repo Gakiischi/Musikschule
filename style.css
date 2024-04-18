@@ -129,20 +129,22 @@ aside {
   position: relative;
 }
 
-main {
-  position: absolute;
-  left: 40%;
-  top: 5%;
-}
 .main-content {
   position: absolute;
   left: 30%;
   bottom: 20%;
 }
 
-#vogel {
+.startschrift {
+  text-align: left;
   position: absolute;
-  right: 25%;
+  top: 40%;
+  left: 180%;
+
+}
+.vogel {
+  position: absolute;
+  right: 85%;
 }
 .contact {
   text-align: center;
@@ -194,8 +196,7 @@ footer {
 
 h1 {
   font-size: 20px;
-  left: 50%;
-  position: absolute;
+  
 }
 
 input {
