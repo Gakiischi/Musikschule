@@ -91,7 +91,7 @@ nav ul {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
   position: absolute;
-  top: 150%;
+  top: 140%;
   left: 33%;
 }
 
@@ -137,6 +137,11 @@ aside {
   position: absolute;
   left: 30%;
   top: 5%;
+}
+.kurs-überschrift {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 20px;
 }
 .main-content {
   position: absolute;
@@ -189,7 +194,7 @@ footer {
 .preis {
   position: absolute;
   left: 30%;
-  bottom: -46%;
+  bottom: -38%;
   font-size: 15px;
 }
 
