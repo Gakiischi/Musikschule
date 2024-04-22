@@ -91,7 +91,7 @@ nav ul {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
   position: absolute;
-  top: 140%;
+  top: 165%;
   left: 33%;
 }
 
@@ -194,7 +194,7 @@ footer {
 .preis {
   position: absolute;
   left: 30%;
-  bottom: -38%;
+  bottom: -60%;
   font-size: 15px;
 }
 
