@@ -161,6 +161,12 @@ aside {
   top: 5%;
 }
 
+h1 b {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  font-size: 24px;
+}
 .textaufmain {
   position: absolute;
   top: 223px;
@@ -169,12 +175,12 @@ aside {
   right: 240px;
   font-size: 20px;
 }
-
-h1 b {
+.borderinstart {
   position: absolute;
-  right: 15%;
-  top: 20%;
-  font-size: 24px;
+  border: #3f3d54 solid 1px;
+  background-color: #3f3d54;
+  color: #f5f5f5;
+  text-align: justify;
 }
 .contact {
   text-align: center;
