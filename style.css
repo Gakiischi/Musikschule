@@ -155,9 +155,19 @@ aside {
   top: 40%;
   left: 180%;
 }
-.vogel {
+#vogel {
   position: absolute;
-  right: 85%;
+  right: 55%;
+  top: 5%;
+}
+
+.textaufmain{
+}
+
+h1 b{
+  position: absolute;
+  right: 15%;
+  top: 20%;
 }
 .contact {
   text-align: center;
