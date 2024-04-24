@@ -91,7 +91,7 @@ nav ul {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
   position: absolute;
-  top: 160;
+  top: 400px;
   left: 33%;
 }
 
@@ -161,26 +161,13 @@ aside {
   top: 5%;
 }
 
+.textaufmain {
+}
+
 h1 b {
   position: absolute;
   right: 15%;
   top: 20%;
-  font-size: 24px;
-}
-.textaufmain {
-  position: absolute;
-  top: 223px;
-  text-align: justify;
-  left: 857px;
-  right: 240px;
-  font-size: 20px;
-}
-.borderinstart {
-  position: absolute;
-  border: #3f3d54 solid 1px;
-  background-color: #3f3d54;
-  color: #f5f5f5;
-  text-align: justify;
 }
 .contact {
   text-align: center;
