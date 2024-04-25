@@ -161,7 +161,8 @@ aside {
   top: 5%;
 }
 
-.textaufmain {
+.bordertext {
+  border: #3f3d54 solid 1pc;
 }
 
 h1 b {
