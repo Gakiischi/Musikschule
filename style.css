@@ -95,7 +95,7 @@ nav ul {
   left: 33%;
 }
 
-.btn-nav2{
+.btn-nav2 {
   border-radius: 13px;
   background-color: var(--color-accent);
   padding: 10px 15px;
@@ -107,7 +107,7 @@ nav ul {
   transition: transform 0.3s ease;
 }
 
-.btn-nav2:hover{
+.btn-nav2:hover {
   transform: scale(1.1);
 }
 nav ul li {
@@ -176,10 +176,6 @@ aside {
   top: 5%;
 }
 
-.bordertext {
-  border: #3f3d54 solid 1pc;
-}
-
 h1 b {
   position: absolute;
   right: 230px;
@@ -220,7 +216,7 @@ footer {
 .preis {
   position: absolute;
   left: 30%;
-  bottom: -60%;
+  bottom: -75%;
   font-size: 15px;
 }
 
@@ -361,7 +357,7 @@ input:focus {
   left: 117px;
 }
 
-.textaufmain{
+.textaufmain {
   position: absolute;
   top: 200px;
   text-align: left;
@@ -380,14 +376,14 @@ input:focus {
   width: 85%;
 }
 
-#h2main{
+#h2main {
   font-size: 25px;
   padding: 5%;
   padding-left: 400px;
   text-align: left;
 }
 
-#textmain3{
+#textmain3 {
   position: relative;
   padding-left: 400px;
   padding-right: 550px;
