@@ -102,7 +102,7 @@ nav ul {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.65) 0 3px 8px;
   position: absolute;
-  top: 870px;
+  top: 681px;
   left: 750px;
   transition: transform 0.3s ease;
 }
@@ -137,7 +137,9 @@ aside {
   color: var(--color-secondary);
 }
 .start {
+  position: absolute;
   text-align: center;
+  top: 11px;
 }
 
 #main {
@@ -189,7 +191,7 @@ h1 b {
 }
 
 .left-content {
-  font-size: 17px;
+  font-size: 20px;
 }
 
 footer {
@@ -230,7 +232,7 @@ footer {
   width: 80px;
   position: absolute;
   left: 25%;
-  top: 1495px;
+  top: 1310px;
 }
 .socialmedia {
   width: 70px;
@@ -242,7 +244,7 @@ footer {
   width: 70px;
   position: absolute;
   left: 70%;
-  top: 1500px;
+  top: 1326px;
 }
 
 h1 {
@@ -364,7 +366,7 @@ input:focus {
   left: 840px;
 }
 
-.textmitborder{
+.textmitborder {
   position: relative;
   background-color: #3f3d54;
   left: 227px;
@@ -372,7 +374,7 @@ input:focus {
   font-size: 15px;
   color: #f5f5f5;
   padding: 0%;
-  top: -550px;
+  top: 384px;
   width: 85%;
 }
 
@@ -392,33 +394,35 @@ input:focus {
   padding-bottom: 60px;
 }
 
-.box1{
+.box1 {
   position: absolute;
-  bottom: 380px;
+  top: 758px;
   left: 350px;
   transition: transform 0.3s ease;
 }
 
-.box2{
+.box2 {
   position: absolute;
-  bottom: 380px;
+  top: 758px;
   left: 850px;
   transition: transform 0.3s ease;
 }
-.box3{
+.box3 {
   position: absolute;
-  bottom: 130px;
+  top: 1021px;
   left: 350px;
   transition: transform 0.3s ease;
 }
 
-.box4{
+.box4 {
   position: absolute;
-  bottom: 130px;
+  top: 1021px;
   left: 850px;
   transition: transform 0.3s ease;
 }
-.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
   transform: scale(1.1);
-
 }
