@@ -182,8 +182,8 @@ aside {
 
 h1 b {
   position: absolute;
-  right: 15%;
-  top: 10%;
+  right: 230px;
+  top: 150px;
 }
 .contact {
   text-align: center;
@@ -230,12 +230,23 @@ footer {
   left: 25%;
   top: 82%;
 }
-
+.bilderimfootmain {
+  width: 80px;
+  position: absolute;
+  left: 25%;
+  top: 1495px;
+}
 .socialmedia {
   width: 70px;
   position: absolute;
   left: 70%;
   top: 85%;
+}
+.socialmediamain {
+  width: 70px;
+  position: absolute;
+  left: 70%;
+  top: 1500px;
 }
 
 h1 {
@@ -358,14 +369,15 @@ input:focus {
 }
 
 .textmitborder{
-  position: absolute;
+  position: relative;
   background-color: #3f3d54;
-  left: 230px;
+  left: 227px;
   bottom: 125px;
   font-size: 15px;
   color: #f5f5f5;
   padding: 0%;
-  top: 600px;
+  top: -550px;
+  width: 85%;
 }
 
 #h2main{
@@ -378,7 +390,39 @@ input:focus {
 #textmain3{
   position: relative;
   padding-left: 400px;
-  padding-right: 510px;
+  padding-right: 550px;
   text-align: left;
   top: -50px;
+  padding-bottom: 60px;
+}
+
+.box1{
+  position: absolute;
+  bottom: 380px;
+  left: 350px;
+  transition: transform 0.3s ease;
+}
+
+.box2{
+  position: absolute;
+  bottom: 380px;
+  left: 850px;
+  transition: transform 0.3s ease;
+}
+.box3{
+  position: absolute;
+  bottom: 130px;
+  left: 350px;
+  transition: transform 0.3s ease;
+}
+
+.box4{
+  position: absolute;
+  bottom: 130px;
+  left: 850px;
+  transition: transform 0.3s ease;
+}
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+  transform: scale(1.1);
+
 }
