@@ -362,8 +362,9 @@ input:focus {
 .textaufmain {
   position: absolute;
   top: 200px;
-  text-align: left;
+  text-align: justify;
   left: 840px;
+  padding-right: 235px;
 }
 
 .textmitborder {
