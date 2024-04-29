@@ -430,12 +430,22 @@ input:focus {
 .box4:hover {
   transform: scale(1.1);
 }
+#anmeldungh1 {
+  position: relative;
+  top: -5%;
+  left: 200%;
+}
 .signup {
   text-align: center;
   position: absolute;
   left: 40%;
   top: 5%;
 }
+.date {
+}
 .kurs-dropdown {
+  box-shadow: black;
   position: absolute;
+  top: 271px;
+  left: 48px;
 }
