@@ -233,7 +233,6 @@ footer {
   position: absolute;
   left: 25%;
   top: 1310px;
-
 }
 .socialmedia {
   width: 70px;
@@ -430,4 +429,13 @@ input:focus {
 .box3:hover,
 .box4:hover {
   transform: scale(1.1);
+}
+.signup {
+  text-align: center;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+}
+.kurs-dropdown {
+  position: absolute;
 }
