@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Musikschule Tübingen Geige Erwachsene</title>
+    <title>Musikschule Tübingen anmeldeformula</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -14,6 +14,7 @@
   </head>
   <body>
     <header>
+      
       <nav>
         <i class="fa-solid fa-guitar logo"></i>
         <label class="school-name"
@@ -60,31 +61,26 @@
         <p>Tübinger Straße 420</p>
         <br />
       </aside>
-      <main class="kurse">
-        <div class="image-text-container">
-          <p class="kurs-überschrift"><b>Erwachsene Geigenskurs</b></p>
-          <p class="text-element">
-            <img
-              width="400"
-              src="bilder/Geige.png"
-              alt="Eine nicht benutzte Geige"
-            />
-          </p>
-          <p class="bildunterschrift">
-            Das Erlernen der Geige ermöglicht es dir, eine breite Palette von
-            Musikstilen zu spielen, deine Kreativität durch Komposition und
-            Improvisation auszudrücken und eine tiefe Verbindung zur Musik
-            herzustellen.
-          </p>
 
-          <p class="preis">4.000€ pro Minute</p>
+        <input type="checkbox" id="chk" aria-hidden="true">
 
-          <a href="anmeldung.html"
-            ><button class="btn-nav">Anmeldung</button></a
-          >
+        <div class="signup">
+            <form>
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="txt" placeholder="User name" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pswd" placeholder="Password" required="">
+                <button>Sign up</button>
+            </form>
         </div>
-      </main>
-    </div>
+
+        <div class="login">
+            <form>
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pswd" placeholder="Password" required="">
+                <button>Login</button>
+            </form>
 
     <footer>
       <div class="footer-nav">
@@ -105,3 +101,4 @@
     </footer>
   </body>
 </html>
+
