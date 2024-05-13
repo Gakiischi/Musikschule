@@ -284,6 +284,14 @@ textarea {
   border-radius: 5%;
   transition: transform 0.3s ease;
 }
+.submit2 {
+  position: absolute;
+  top: 386px;
+  left: 50px;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 5%;
+  transition: transform 0.3s ease;
+}
 
 .submit:hover {
   color: #8b3dff;
@@ -313,7 +321,59 @@ input:focus {
   top: -5%;
   left: 200%;
 }
+#anmeldungh1 {
+  position: relative;
+  top: -5%;
+  left: 200%;
+}
 
+.anmeldezeile1 {
+  position: absolute;
+  top: 40%;
+  right: 100px;
+}
+
+.anmeldezeile2 {
+  position: absolute;
+  top: 35%;
+  left: 70%;
+}
+
+.anmeldezeile3 {
+  position: absolute;
+  top: 85%;
+  right: 100px;
+}
+
+.anmeldezeile4 {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+
+.anmeldezeile5 {
+  position: absolute;
+  top: 171px;
+  right: 104px;
+}
+
+.anmeldezeile6 {
+  position: absolute;
+  top: 177px;
+  left: 73px;
+}
+
+.anmeldezeile7 {
+  position: absolute;
+  top: 237px;
+  right: 103px;
+}
+
+.anmeldezeile8 {
+  position: absolute;
+  top: 235px;
+  left: 72px;
+}
 .zeile1 {
   position: absolute;
   top: 40%;
@@ -340,26 +400,26 @@ input:focus {
 
 .zeile5 {
   position: absolute;
-  top: 150px;
-  right: 60px;
+  top: 171px;
+  right: 104px;
 }
 
 .zeile6 {
   position: absolute;
-  top: 150px;
-  left: 22px;
+  top: 177px;
+  left: 73px;
 }
 
 .zeile7 {
   position: absolute;
-  top: 210px;
-  right: 60px;
+  top: 237px;
+  right: 103px;
 }
 
 .zeile8 {
   position: absolute;
-  top: 210px;
-  left: 22px;
+  top: 235px;
+  left: 72px;
 }
 
 .textaufmain {
