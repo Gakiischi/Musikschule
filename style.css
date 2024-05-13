@@ -324,7 +324,7 @@ input:focus {
 #anmeldungh1 {
   position: relative;
   top: -5%;
-  left: 200%;
+  left: 97%;
 }
 
 .anmeldezeile1 {
@@ -501,8 +501,7 @@ input:focus {
   left: 40%;
   top: 5%;
 }
-.date {
-}
+
 .kurs-dropdown {
   box-shadow: black;
   position: absolute;
