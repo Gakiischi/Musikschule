@@ -109,6 +109,7 @@ nav ul {
 
 .btn-nav2:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 nav ul li {
   display: inline-block;
@@ -315,6 +316,7 @@ input:focus {
 
 .btn-nav:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 #kontakth1 {
   position: relative;
